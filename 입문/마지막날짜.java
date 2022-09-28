@@ -62,7 +62,7 @@ class 마지막날짜{
             + "******************\n", 
             year, month, day);
 
-
-        return answer;
+        scanner.close();
+        return title + answer;
     }
 }
